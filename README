@@ -1,0 +1,7 @@
+
+$.sgfm.clientinfo或者$.sgfm.ci
+获取客户端相关信息
+$.sgfm.ci.sys:操作系统;winXp|win7|win8|linux|mac|unknown
+$.sgfm.ci.browser:浏览器内核;ie|firefox|chrome|opera|unknown
+$.sgfm.ci.version:浏览器版本;
+$.sgfm.ci.screen:屏幕分辨率;h:高,w:宽
