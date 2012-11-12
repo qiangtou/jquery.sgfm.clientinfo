@@ -59,10 +59,6 @@
 	function getScreen(browserType, browserVersion) {
 		var w = screen.width || 0,
 		h = screen.height || 0;
-		//ie9下有问题，这里处理下
-		//if (browserType == 'msie' && browserVersion == '9.0') {
-			//TODO
-		//}
 		return {w : w,h : h};
 	}
 	
